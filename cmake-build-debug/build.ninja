@@ -106,6 +106,72 @@ build demo.exe: CXX_EXECUTABLE_LINKER__demo_Debug CMakeFiles/demo.dir/src/demo.c
   TARGET_IMPLIB = libdemo.dll.a
   TARGET_PDB = demo.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target demo_0100
+
+
+#############################################
+# Order-only phony target for demo_0100
+
+build cmake_object_order_depends_target_demo_0100: phony || CMakeFiles/demo_0100.dir
+
+build CMakeFiles/demo_0100.dir/src/demo_0100.cpp.obj: CXX_COMPILER__demo_0100_unscanned_Debug E$:/Machine-test/src/demo_0100.cpp || cmake_object_order_depends_target_demo_0100
+  DEP_FILE = CMakeFiles\demo_0100.dir\src\demo_0100.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\demo_0100.dir
+  OBJECT_FILE_DIR = CMakeFiles\demo_0100.dir\src
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target demo_0100
+
+
+#############################################
+# Link the executable demo_0100.exe
+
+build demo_0100.exe: CXX_EXECUTABLE_LINKER__demo_0100_Debug CMakeFiles/demo_0100.dir/src/demo_0100.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\demo_0100.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = demo_0100.exe
+  TARGET_IMPLIB = libdemo_0100.dll.a
+  TARGET_PDB = demo_0100.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target demo_0101
+
+
+#############################################
+# Order-only phony target for demo_0101
+
+build cmake_object_order_depends_target_demo_0101: phony || CMakeFiles/demo_0101.dir
+
+build CMakeFiles/demo_0101.dir/src/demo_0101.cpp.obj: CXX_COMPILER__demo_0101_unscanned_Debug E$:/Machine-test/src/demo_0101.cpp || cmake_object_order_depends_target_demo_0101
+  DEP_FILE = CMakeFiles\demo_0101.dir\src\demo_0101.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\demo_0101.dir
+  OBJECT_FILE_DIR = CMakeFiles\demo_0101.dir\src
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target demo_0101
+
+
+#############################################
+# Link the executable demo_0101.exe
+
+build demo_0101.exe: CXX_EXECUTABLE_LINKER__demo_0101_Debug CMakeFiles/demo_0101.dir/src/demo_0101.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\demo_0101.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = demo_0101.exe
+  TARGET_IMPLIB = libdemo_0101.dll.a
+  TARGET_PDB = demo_0101.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -136,6 +202,10 @@ build Machine_test: phony Machine_test.exe
 
 build demo: phony demo.exe
 
+build demo_0100: phony demo_0100.exe
+
+build demo_0101: phony demo_0101.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -144,7 +214,7 @@ build demo: phony demo.exe
 #############################################
 # Folder: E:/Machine-test/cmake-build-debug
 
-build all: phony Machine_test.exe demo.exe
+build all: phony Machine_test.exe demo.exe demo_0100.exe demo_0101.exe
 
 # =============================================================================
 # Built-in targets
