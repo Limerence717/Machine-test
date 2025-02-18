@@ -7,5 +7,6 @@ E:/Machine-test/cmake-build-debug/CMakeFiles/exercise_0101.dir
 E:/Machine-test/cmake-build-debug/CMakeFiles/exercise_0102.dir
 E:/Machine-test/cmake-build-debug/CMakeFiles/exercise_0103.dir
 E:/Machine-test/cmake-build-debug/CMakeFiles/exercise_0104.dir
+E:/Machine-test/cmake-build-debug/CMakeFiles/demo_0102.dir
 E:/Machine-test/cmake-build-debug/CMakeFiles/edit_cache.dir
 E:/Machine-test/cmake-build-debug/CMakeFiles/rebuild_cache.dir
