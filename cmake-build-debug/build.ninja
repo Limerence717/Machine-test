@@ -898,6 +898,72 @@ build exercise_0202.exe: CXX_EXECUTABLE_LINKER__exercise_0202_Debug CMakeFiles/e
   TARGET_IMPLIB = libexercise_0202.dll.a
   TARGET_PDB = exercise_0202.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target use_vector
+
+
+#############################################
+# Order-only phony target for use_vector
+
+build cmake_object_order_depends_target_use_vector: phony || CMakeFiles/use_vector.dir
+
+build CMakeFiles/use_vector.dir/src/use_vector.cpp.obj: CXX_COMPILER__use_vector_unscanned_Debug E$:/Machine-test/src/use_vector.cpp || cmake_object_order_depends_target_use_vector
+  DEP_FILE = CMakeFiles\use_vector.dir\src\use_vector.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\use_vector.dir
+  OBJECT_FILE_DIR = CMakeFiles\use_vector.dir\src
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target use_vector
+
+
+#############################################
+# Link the executable use_vector.exe
+
+build use_vector.exe: CXX_EXECUTABLE_LINKER__use_vector_Debug CMakeFiles/use_vector.dir/src/use_vector.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\use_vector.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = use_vector.exe
+  TARGET_IMPLIB = libuse_vector.dll.a
+  TARGET_PDB = use_vector.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target use_list
+
+
+#############################################
+# Order-only phony target for use_list
+
+build cmake_object_order_depends_target_use_list: phony || CMakeFiles/use_list.dir
+
+build CMakeFiles/use_list.dir/src/use_list.cpp.obj: CXX_COMPILER__use_list_unscanned_Debug E$:/Machine-test/src/use_list.cpp || cmake_object_order_depends_target_use_list
+  DEP_FILE = CMakeFiles\use_list.dir\src\use_list.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\use_list.dir
+  OBJECT_FILE_DIR = CMakeFiles\use_list.dir\src
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target use_list
+
+
+#############################################
+# Link the executable use_list.exe
+
+build use_list.exe: CXX_EXECUTABLE_LINKER__use_list_Debug CMakeFiles/use_list.dir/src/use_list.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\use_list.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = use_list.exe
+  TARGET_IMPLIB = libuse_list.dll.a
+  TARGET_PDB = use_list.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -976,6 +1042,10 @@ build exercise_0201: phony exercise_0201.exe
 
 build exercise_0202: phony exercise_0202.exe
 
+build use_list: phony use_list.exe
+
+build use_vector: phony use_vector.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -984,7 +1054,7 @@ build exercise_0202: phony exercise_0202.exe
 #############################################
 # Folder: E:/Machine-test/cmake-build-debug
 
-build all: phony Machine_test.exe demo.exe demo_0100.exe demo_0101.exe exercise_0100.exe exercise_0101.exe exercise_0102.exe exercise_0103.exe exercise_0104.exe demo_0102.exe exercise_0105.exe exercise_0106.exe exercise_0107.exe exercise_0108.exe demo_0103.exe demo_0104.exe exercise_0110.exe exercise_0111.exe exercise_0112.exe _nextday.exe demo_0200.exe demo_0201.exe demo_0202.exe exercise_0200.exe exercise_0201.exe exercise_0202.exe
+build all: phony Machine_test.exe demo.exe demo_0100.exe demo_0101.exe exercise_0100.exe exercise_0101.exe exercise_0102.exe exercise_0103.exe exercise_0104.exe demo_0102.exe exercise_0105.exe exercise_0106.exe exercise_0107.exe exercise_0108.exe demo_0103.exe demo_0104.exe exercise_0110.exe exercise_0111.exe exercise_0112.exe _nextday.exe demo_0200.exe demo_0201.exe demo_0202.exe exercise_0200.exe exercise_0201.exe exercise_0202.exe use_vector.exe use_list.exe
 
 # =============================================================================
 # Built-in targets

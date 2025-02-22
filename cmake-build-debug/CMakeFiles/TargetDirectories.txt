@@ -24,5 +24,7 @@ E:/Machine-test/cmake-build-debug/CMakeFiles/demo_0202.dir
 E:/Machine-test/cmake-build-debug/CMakeFiles/exercise_0200.dir
 E:/Machine-test/cmake-build-debug/CMakeFiles/exercise_0201.dir
 E:/Machine-test/cmake-build-debug/CMakeFiles/exercise_0202.dir
+E:/Machine-test/cmake-build-debug/CMakeFiles/use_vector.dir
+E:/Machine-test/cmake-build-debug/CMakeFiles/use_list.dir
 E:/Machine-test/cmake-build-debug/CMakeFiles/edit_cache.dir
 E:/Machine-test/cmake-build-debug/CMakeFiles/rebuild_cache.dir
