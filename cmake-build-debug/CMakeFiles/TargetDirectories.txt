@@ -26,5 +26,12 @@ E:/Machine-test/cmake-build-debug/CMakeFiles/exercise_0201.dir
 E:/Machine-test/cmake-build-debug/CMakeFiles/exercise_0202.dir
 E:/Machine-test/cmake-build-debug/CMakeFiles/use_vector.dir
 E:/Machine-test/cmake-build-debug/CMakeFiles/use_list.dir
+E:/Machine-test/cmake-build-debug/CMakeFiles/demo_0203.dir
+E:/Machine-test/cmake-build-debug/CMakeFiles/demo_0204.dir
+E:/Machine-test/cmake-build-debug/CMakeFiles/demo_0205.dir
+E:/Machine-test/cmake-build-debug/CMakeFiles/exercise_0203.dir
+E:/Machine-test/cmake-build-debug/CMakeFiles/exercise_0204.dir
+E:/Machine-test/cmake-build-debug/CMakeFiles/exercise_0205.dir
+E:/Machine-test/cmake-build-debug/CMakeFiles/exercise_0206.dir
 E:/Machine-test/cmake-build-debug/CMakeFiles/edit_cache.dir
 E:/Machine-test/cmake-build-debug/CMakeFiles/rebuild_cache.dir
