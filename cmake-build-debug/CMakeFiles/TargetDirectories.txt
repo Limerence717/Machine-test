@@ -37,5 +37,10 @@ E:/Machine-test/cmake-build-debug/CMakeFiles/use_set.dir
 E:/Machine-test/cmake-build-debug/CMakeFiles/demo_0206.dir
 E:/Machine-test/cmake-build-debug/CMakeFiles/use_map.dir
 E:/Machine-test/cmake-build-debug/CMakeFiles/demo_0207.dir
+E:/Machine-test/cmake-build-debug/CMakeFiles/use_sort.dir
+E:/Machine-test/cmake-build-debug/CMakeFiles/demo_0300.dir
+E:/Machine-test/cmake-build-debug/CMakeFiles/demo_0301.dir
+E:/Machine-test/cmake-build-debug/CMakeFiles/demo_0302.dir
+E:/Machine-test/cmake-build-debug/CMakeFiles/demo_0303.dir
 E:/Machine-test/cmake-build-debug/CMakeFiles/edit_cache.dir
 E:/Machine-test/cmake-build-debug/CMakeFiles/rebuild_cache.dir
