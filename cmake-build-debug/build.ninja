@@ -1261,6 +1261,72 @@ build demo_0206.exe: CXX_EXECUTABLE_LINKER__demo_0206_Debug CMakeFiles/demo_0206
   TARGET_IMPLIB = libdemo_0206.dll.a
   TARGET_PDB = demo_0206.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target use_map
+
+
+#############################################
+# Order-only phony target for use_map
+
+build cmake_object_order_depends_target_use_map: phony || CMakeFiles/use_map.dir
+
+build CMakeFiles/use_map.dir/src/use_map.cpp.obj: CXX_COMPILER__use_map_unscanned_Debug E$:/Machine-test/src/use_map.cpp || cmake_object_order_depends_target_use_map
+  DEP_FILE = CMakeFiles\use_map.dir\src\use_map.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\use_map.dir
+  OBJECT_FILE_DIR = CMakeFiles\use_map.dir\src
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target use_map
+
+
+#############################################
+# Link the executable use_map.exe
+
+build use_map.exe: CXX_EXECUTABLE_LINKER__use_map_Debug CMakeFiles/use_map.dir/src/use_map.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\use_map.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = use_map.exe
+  TARGET_IMPLIB = libuse_map.dll.a
+  TARGET_PDB = use_map.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target demo_0207
+
+
+#############################################
+# Order-only phony target for demo_0207
+
+build cmake_object_order_depends_target_demo_0207: phony || CMakeFiles/demo_0207.dir
+
+build CMakeFiles/demo_0207.dir/src/demo_0207.cpp.obj: CXX_COMPILER__demo_0207_unscanned_Debug E$:/Machine-test/src/demo_0207.cpp || cmake_object_order_depends_target_demo_0207
+  DEP_FILE = CMakeFiles\demo_0207.dir\src\demo_0207.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\demo_0207.dir
+  OBJECT_FILE_DIR = CMakeFiles\demo_0207.dir\src
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target demo_0207
+
+
+#############################################
+# Link the executable demo_0207.exe
+
+build demo_0207.exe: CXX_EXECUTABLE_LINKER__demo_0207_Debug CMakeFiles/demo_0207.dir/src/demo_0207.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\demo_0207.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = demo_0207.exe
+  TARGET_IMPLIB = libdemo_0207.dll.a
+  TARGET_PDB = demo_0207.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1317,6 +1383,8 @@ build demo_0205: phony demo_0205.exe
 
 build demo_0206: phony demo_0206.exe
 
+build demo_0207: phony demo_0207.exe
+
 build exercise_0100: phony exercise_0100.exe
 
 build exercise_0101: phony exercise_0101.exe
@@ -1357,6 +1425,8 @@ build exercise_0206: phony exercise_0206.exe
 
 build use_list: phony use_list.exe
 
+build use_map: phony use_map.exe
+
 build use_set: phony use_set.exe
 
 build use_vector: phony use_vector.exe
@@ -1369,7 +1439,7 @@ build use_vector: phony use_vector.exe
 #############################################
 # Folder: E:/Machine-test/cmake-build-debug
 
-build all: phony Machine_test.exe demo.exe demo_0100.exe demo_0101.exe exercise_0100.exe exercise_0101.exe exercise_0102.exe exercise_0103.exe exercise_0104.exe demo_0102.exe exercise_0105.exe exercise_0106.exe exercise_0107.exe exercise_0108.exe demo_0103.exe demo_0104.exe exercise_0110.exe exercise_0111.exe exercise_0112.exe _nextday.exe demo_0200.exe demo_0201.exe demo_0202.exe exercise_0200.exe exercise_0201.exe exercise_0202.exe use_vector.exe use_list.exe demo_0203.exe demo_0204.exe demo_0205.exe exercise_0203.exe exercise_0204.exe exercise_0205.exe exercise_0206.exe use_set.exe demo_0206.exe
+build all: phony Machine_test.exe demo.exe demo_0100.exe demo_0101.exe exercise_0100.exe exercise_0101.exe exercise_0102.exe exercise_0103.exe exercise_0104.exe demo_0102.exe exercise_0105.exe exercise_0106.exe exercise_0107.exe exercise_0108.exe demo_0103.exe demo_0104.exe exercise_0110.exe exercise_0111.exe exercise_0112.exe _nextday.exe demo_0200.exe demo_0201.exe demo_0202.exe exercise_0200.exe exercise_0201.exe exercise_0202.exe use_vector.exe use_list.exe demo_0203.exe demo_0204.exe demo_0205.exe exercise_0203.exe exercise_0204.exe exercise_0205.exe exercise_0206.exe use_set.exe demo_0206.exe use_map.exe demo_0207.exe
 
 # =============================================================================
 # Built-in targets
