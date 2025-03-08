@@ -42,5 +42,7 @@ E:/Machine-test/cmake-build-debug/CMakeFiles/demo_0300.dir
 E:/Machine-test/cmake-build-debug/CMakeFiles/demo_0301.dir
 E:/Machine-test/cmake-build-debug/CMakeFiles/demo_0302.dir
 E:/Machine-test/cmake-build-debug/CMakeFiles/demo_0303.dir
+E:/Machine-test/cmake-build-debug/CMakeFiles/demo_0304.dir
+E:/Machine-test/cmake-build-debug/CMakeFiles/demo_0305.dir
 E:/Machine-test/cmake-build-debug/CMakeFiles/edit_cache.dir
 E:/Machine-test/cmake-build-debug/CMakeFiles/rebuild_cache.dir

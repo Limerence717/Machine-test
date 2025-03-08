@@ -1492,6 +1492,72 @@ build demo_0303.exe: CXX_EXECUTABLE_LINKER__demo_0303_Debug CMakeFiles/demo_0303
   TARGET_IMPLIB = libdemo_0303.dll.a
   TARGET_PDB = demo_0303.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target demo_0304
+
+
+#############################################
+# Order-only phony target for demo_0304
+
+build cmake_object_order_depends_target_demo_0304: phony || CMakeFiles/demo_0304.dir
+
+build CMakeFiles/demo_0304.dir/src/demo_0304.cpp.obj: CXX_COMPILER__demo_0304_unscanned_Debug E$:/Machine-test/src/demo_0304.cpp || cmake_object_order_depends_target_demo_0304
+  DEP_FILE = CMakeFiles\demo_0304.dir\src\demo_0304.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\demo_0304.dir
+  OBJECT_FILE_DIR = CMakeFiles\demo_0304.dir\src
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target demo_0304
+
+
+#############################################
+# Link the executable demo_0304.exe
+
+build demo_0304.exe: CXX_EXECUTABLE_LINKER__demo_0304_Debug CMakeFiles/demo_0304.dir/src/demo_0304.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\demo_0304.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = demo_0304.exe
+  TARGET_IMPLIB = libdemo_0304.dll.a
+  TARGET_PDB = demo_0304.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target demo_0305
+
+
+#############################################
+# Order-only phony target for demo_0305
+
+build cmake_object_order_depends_target_demo_0305: phony || CMakeFiles/demo_0305.dir
+
+build CMakeFiles/demo_0305.dir/src/demo_0305.cpp.obj: CXX_COMPILER__demo_0305_unscanned_Debug E$:/Machine-test/src/demo_0305.cpp || cmake_object_order_depends_target_demo_0305
+  DEP_FILE = CMakeFiles\demo_0305.dir\src\demo_0305.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\demo_0305.dir
+  OBJECT_FILE_DIR = CMakeFiles\demo_0305.dir\src
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target demo_0305
+
+
+#############################################
+# Link the executable demo_0305.exe
+
+build demo_0305.exe: CXX_EXECUTABLE_LINKER__demo_0305_Debug CMakeFiles/demo_0305.dir/src/demo_0305.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\demo_0305.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = demo_0305.exe
+  TARGET_IMPLIB = libdemo_0305.dll.a
+  TARGET_PDB = demo_0305.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1558,6 +1624,10 @@ build demo_0302: phony demo_0302.exe
 
 build demo_0303: phony demo_0303.exe
 
+build demo_0304: phony demo_0304.exe
+
+build demo_0305: phony demo_0305.exe
+
 build exercise_0100: phony exercise_0100.exe
 
 build exercise_0101: phony exercise_0101.exe
@@ -1614,7 +1684,7 @@ build use_vector: phony use_vector.exe
 #############################################
 # Folder: E:/Machine-test/cmake-build-debug
 
-build all: phony Machine_test.exe demo.exe demo_0100.exe demo_0101.exe exercise_0100.exe exercise_0101.exe exercise_0102.exe exercise_0103.exe exercise_0104.exe demo_0102.exe exercise_0105.exe exercise_0106.exe exercise_0107.exe exercise_0108.exe demo_0103.exe demo_0104.exe exercise_0110.exe exercise_0111.exe exercise_0112.exe _nextday.exe demo_0200.exe demo_0201.exe demo_0202.exe exercise_0200.exe exercise_0201.exe exercise_0202.exe use_vector.exe use_list.exe demo_0203.exe demo_0204.exe demo_0205.exe exercise_0203.exe exercise_0204.exe exercise_0205.exe exercise_0206.exe use_set.exe demo_0206.exe use_map.exe demo_0207.exe use_sort.exe demo_0300.exe demo_0301.exe demo_0302.exe demo_0303.exe
+build all: phony Machine_test.exe demo.exe demo_0100.exe demo_0101.exe exercise_0100.exe exercise_0101.exe exercise_0102.exe exercise_0103.exe exercise_0104.exe demo_0102.exe exercise_0105.exe exercise_0106.exe exercise_0107.exe exercise_0108.exe demo_0103.exe demo_0104.exe exercise_0110.exe exercise_0111.exe exercise_0112.exe _nextday.exe demo_0200.exe demo_0201.exe demo_0202.exe exercise_0200.exe exercise_0201.exe exercise_0202.exe use_vector.exe use_list.exe demo_0203.exe demo_0204.exe demo_0205.exe exercise_0203.exe exercise_0204.exe exercise_0205.exe exercise_0206.exe use_set.exe demo_0206.exe use_map.exe demo_0207.exe use_sort.exe demo_0300.exe demo_0301.exe demo_0302.exe demo_0303.exe demo_0304.exe demo_0305.exe
 
 # =============================================================================
 # Built-in targets
