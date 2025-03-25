@@ -1558,6 +1558,138 @@ build demo_0305.exe: CXX_EXECUTABLE_LINKER__demo_0305_Debug CMakeFiles/demo_0305
   TARGET_IMPLIB = libdemo_0305.dll.a
   TARGET_PDB = demo_0305.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target use_string
+
+
+#############################################
+# Order-only phony target for use_string
+
+build cmake_object_order_depends_target_use_string: phony || CMakeFiles/use_string.dir
+
+build CMakeFiles/use_string.dir/src/use_string.cpp.obj: CXX_COMPILER__use_string_unscanned_Debug E$:/Machine-test/src/use_string.cpp || cmake_object_order_depends_target_use_string
+  DEP_FILE = CMakeFiles\use_string.dir\src\use_string.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\use_string.dir
+  OBJECT_FILE_DIR = CMakeFiles\use_string.dir\src
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target use_string
+
+
+#############################################
+# Link the executable use_string.exe
+
+build use_string.exe: CXX_EXECUTABLE_LINKER__use_string_Debug CMakeFiles/use_string.dir/src/use_string.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\use_string.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = use_string.exe
+  TARGET_IMPLIB = libuse_string.dll.a
+  TARGET_PDB = use_string.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target demo_0400
+
+
+#############################################
+# Order-only phony target for demo_0400
+
+build cmake_object_order_depends_target_demo_0400: phony || CMakeFiles/demo_0400.dir
+
+build CMakeFiles/demo_0400.dir/src/demo_0400.cpp.obj: CXX_COMPILER__demo_0400_unscanned_Debug E$:/Machine-test/src/demo_0400.cpp || cmake_object_order_depends_target_demo_0400
+  DEP_FILE = CMakeFiles\demo_0400.dir\src\demo_0400.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\demo_0400.dir
+  OBJECT_FILE_DIR = CMakeFiles\demo_0400.dir\src
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target demo_0400
+
+
+#############################################
+# Link the executable demo_0400.exe
+
+build demo_0400.exe: CXX_EXECUTABLE_LINKER__demo_0400_Debug CMakeFiles/demo_0400.dir/src/demo_0400.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\demo_0400.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = demo_0400.exe
+  TARGET_IMPLIB = libdemo_0400.dll.a
+  TARGET_PDB = demo_0400.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target demo_0401
+
+
+#############################################
+# Order-only phony target for demo_0401
+
+build cmake_object_order_depends_target_demo_0401: phony || CMakeFiles/demo_0401.dir
+
+build CMakeFiles/demo_0401.dir/src/demo_0401.cpp.obj: CXX_COMPILER__demo_0401_unscanned_Debug E$:/Machine-test/src/demo_0401.cpp || cmake_object_order_depends_target_demo_0401
+  DEP_FILE = CMakeFiles\demo_0401.dir\src\demo_0401.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\demo_0401.dir
+  OBJECT_FILE_DIR = CMakeFiles\demo_0401.dir\src
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target demo_0401
+
+
+#############################################
+# Link the executable demo_0401.exe
+
+build demo_0401.exe: CXX_EXECUTABLE_LINKER__demo_0401_Debug CMakeFiles/demo_0401.dir/src/demo_0401.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\demo_0401.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = demo_0401.exe
+  TARGET_IMPLIB = libdemo_0401.dll.a
+  TARGET_PDB = demo_0401.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target demo_0402
+
+
+#############################################
+# Order-only phony target for demo_0402
+
+build cmake_object_order_depends_target_demo_0402: phony || CMakeFiles/demo_0402.dir
+
+build CMakeFiles/demo_0402.dir/src/demo_0402.cpp.obj: CXX_COMPILER__demo_0402_unscanned_Debug E$:/Machine-test/src/demo_0402.cpp || cmake_object_order_depends_target_demo_0402
+  DEP_FILE = CMakeFiles\demo_0402.dir\src\demo_0402.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\demo_0402.dir
+  OBJECT_FILE_DIR = CMakeFiles\demo_0402.dir\src
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target demo_0402
+
+
+#############################################
+# Link the executable demo_0402.exe
+
+build demo_0402.exe: CXX_EXECUTABLE_LINKER__demo_0402_Debug CMakeFiles/demo_0402.dir/src/demo_0402.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\demo_0402.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = demo_0402.exe
+  TARGET_IMPLIB = libdemo_0402.dll.a
+  TARGET_PDB = demo_0402.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1628,6 +1760,12 @@ build demo_0304: phony demo_0304.exe
 
 build demo_0305: phony demo_0305.exe
 
+build demo_0400: phony demo_0400.exe
+
+build demo_0401: phony demo_0401.exe
+
+build demo_0402: phony demo_0402.exe
+
 build exercise_0100: phony exercise_0100.exe
 
 build exercise_0101: phony exercise_0101.exe
@@ -1674,6 +1812,8 @@ build use_set: phony use_set.exe
 
 build use_sort: phony use_sort.exe
 
+build use_string: phony use_string.exe
+
 build use_vector: phony use_vector.exe
 
 # =============================================================================
@@ -1684,7 +1824,7 @@ build use_vector: phony use_vector.exe
 #############################################
 # Folder: E:/Machine-test/cmake-build-debug
 
-build all: phony Machine_test.exe demo.exe demo_0100.exe demo_0101.exe exercise_0100.exe exercise_0101.exe exercise_0102.exe exercise_0103.exe exercise_0104.exe demo_0102.exe exercise_0105.exe exercise_0106.exe exercise_0107.exe exercise_0108.exe demo_0103.exe demo_0104.exe exercise_0110.exe exercise_0111.exe exercise_0112.exe _nextday.exe demo_0200.exe demo_0201.exe demo_0202.exe exercise_0200.exe exercise_0201.exe exercise_0202.exe use_vector.exe use_list.exe demo_0203.exe demo_0204.exe demo_0205.exe exercise_0203.exe exercise_0204.exe exercise_0205.exe exercise_0206.exe use_set.exe demo_0206.exe use_map.exe demo_0207.exe use_sort.exe demo_0300.exe demo_0301.exe demo_0302.exe demo_0303.exe demo_0304.exe demo_0305.exe
+build all: phony Machine_test.exe demo.exe demo_0100.exe demo_0101.exe exercise_0100.exe exercise_0101.exe exercise_0102.exe exercise_0103.exe exercise_0104.exe demo_0102.exe exercise_0105.exe exercise_0106.exe exercise_0107.exe exercise_0108.exe demo_0103.exe demo_0104.exe exercise_0110.exe exercise_0111.exe exercise_0112.exe _nextday.exe demo_0200.exe demo_0201.exe demo_0202.exe exercise_0200.exe exercise_0201.exe exercise_0202.exe use_vector.exe use_list.exe demo_0203.exe demo_0204.exe demo_0205.exe exercise_0203.exe exercise_0204.exe exercise_0205.exe exercise_0206.exe use_set.exe demo_0206.exe use_map.exe demo_0207.exe use_sort.exe demo_0300.exe demo_0301.exe demo_0302.exe demo_0303.exe demo_0304.exe demo_0305.exe use_string.exe demo_0400.exe demo_0401.exe demo_0402.exe
 
 # =============================================================================
 # Built-in targets
