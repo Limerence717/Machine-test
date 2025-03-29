@@ -1756,6 +1756,138 @@ build demo_0500.exe: CXX_EXECUTABLE_LINKER__demo_0500_Debug CMakeFiles/demo_0500
   TARGET_IMPLIB = libdemo_0500.dll.a
   TARGET_PDB = demo_0500.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target use_stack
+
+
+#############################################
+# Order-only phony target for use_stack
+
+build cmake_object_order_depends_target_use_stack: phony || CMakeFiles/use_stack.dir
+
+build CMakeFiles/use_stack.dir/src/use_stack.cpp.obj: CXX_COMPILER__use_stack_unscanned_Debug E$:/Machine-test/src/use_stack.cpp || cmake_object_order_depends_target_use_stack
+  DEP_FILE = CMakeFiles\use_stack.dir\src\use_stack.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\use_stack.dir
+  OBJECT_FILE_DIR = CMakeFiles\use_stack.dir\src
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target use_stack
+
+
+#############################################
+# Link the executable use_stack.exe
+
+build use_stack.exe: CXX_EXECUTABLE_LINKER__use_stack_Debug CMakeFiles/use_stack.dir/src/use_stack.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\use_stack.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = use_stack.exe
+  TARGET_IMPLIB = libuse_stack.dll.a
+  TARGET_PDB = use_stack.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target demo_0501
+
+
+#############################################
+# Order-only phony target for demo_0501
+
+build cmake_object_order_depends_target_demo_0501: phony || CMakeFiles/demo_0501.dir
+
+build CMakeFiles/demo_0501.dir/src/demo_0501.cpp.obj: CXX_COMPILER__demo_0501_unscanned_Debug E$:/Machine-test/src/demo_0501.cpp || cmake_object_order_depends_target_demo_0501
+  DEP_FILE = CMakeFiles\demo_0501.dir\src\demo_0501.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\demo_0501.dir
+  OBJECT_FILE_DIR = CMakeFiles\demo_0501.dir\src
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target demo_0501
+
+
+#############################################
+# Link the executable demo_0501.exe
+
+build demo_0501.exe: CXX_EXECUTABLE_LINKER__demo_0501_Debug CMakeFiles/demo_0501.dir/src/demo_0501.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\demo_0501.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = demo_0501.exe
+  TARGET_IMPLIB = libdemo_0501.dll.a
+  TARGET_PDB = demo_0501.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target demo_0502
+
+
+#############################################
+# Order-only phony target for demo_0502
+
+build cmake_object_order_depends_target_demo_0502: phony || CMakeFiles/demo_0502.dir
+
+build CMakeFiles/demo_0502.dir/src/demo_0502.cpp.obj: CXX_COMPILER__demo_0502_unscanned_Debug E$:/Machine-test/src/demo_0502.cpp || cmake_object_order_depends_target_demo_0502
+  DEP_FILE = CMakeFiles\demo_0502.dir\src\demo_0502.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\demo_0502.dir
+  OBJECT_FILE_DIR = CMakeFiles\demo_0502.dir\src
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target demo_0502
+
+
+#############################################
+# Link the executable demo_0502.exe
+
+build demo_0502.exe: CXX_EXECUTABLE_LINKER__demo_0502_Debug CMakeFiles/demo_0502.dir/src/demo_0502.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\demo_0502.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = demo_0502.exe
+  TARGET_IMPLIB = libdemo_0502.dll.a
+  TARGET_PDB = demo_0502.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target demo_0503
+
+
+#############################################
+# Order-only phony target for demo_0503
+
+build cmake_object_order_depends_target_demo_0503: phony || CMakeFiles/demo_0503.dir
+
+build CMakeFiles/demo_0503.dir/src/demo_0503.cpp.obj: CXX_COMPILER__demo_0503_unscanned_Debug E$:/Machine-test/src/demo_0503.cpp || cmake_object_order_depends_target_demo_0503
+  DEP_FILE = CMakeFiles\demo_0503.dir\src\demo_0503.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\demo_0503.dir
+  OBJECT_FILE_DIR = CMakeFiles\demo_0503.dir\src
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target demo_0503
+
+
+#############################################
+# Link the executable demo_0503.exe
+
+build demo_0503.exe: CXX_EXECUTABLE_LINKER__demo_0503_Debug CMakeFiles/demo_0503.dir/src/demo_0503.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\demo_0503.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = demo_0503.exe
+  TARGET_IMPLIB = libdemo_0503.dll.a
+  TARGET_PDB = demo_0503.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1834,6 +1966,12 @@ build demo_0402: phony demo_0402.exe
 
 build demo_0500: phony demo_0500.exe
 
+build demo_0501: phony demo_0501.exe
+
+build demo_0502: phony demo_0502.exe
+
+build demo_0503: phony demo_0503.exe
+
 build exercise_0100: phony exercise_0100.exe
 
 build exercise_0101: phony exercise_0101.exe
@@ -1882,6 +2020,8 @@ build use_set: phony use_set.exe
 
 build use_sort: phony use_sort.exe
 
+build use_stack: phony use_stack.exe
+
 build use_string: phony use_string.exe
 
 build use_vector: phony use_vector.exe
@@ -1894,7 +2034,7 @@ build use_vector: phony use_vector.exe
 #############################################
 # Folder: E:/Machine-test/cmake-build-debug
 
-build all: phony Machine_test.exe demo.exe demo_0100.exe demo_0101.exe exercise_0100.exe exercise_0101.exe exercise_0102.exe exercise_0103.exe exercise_0104.exe demo_0102.exe exercise_0105.exe exercise_0106.exe exercise_0107.exe exercise_0108.exe demo_0103.exe demo_0104.exe exercise_0110.exe exercise_0111.exe exercise_0112.exe _nextday.exe demo_0200.exe demo_0201.exe demo_0202.exe exercise_0200.exe exercise_0201.exe exercise_0202.exe use_vector.exe use_list.exe demo_0203.exe demo_0204.exe demo_0205.exe exercise_0203.exe exercise_0204.exe exercise_0205.exe exercise_0206.exe use_set.exe demo_0206.exe use_map.exe demo_0207.exe use_sort.exe demo_0300.exe demo_0301.exe demo_0302.exe demo_0303.exe demo_0304.exe demo_0305.exe use_string.exe demo_0400.exe demo_0401.exe demo_0402.exe use_queue.exe demo_0500.exe
+build all: phony Machine_test.exe demo.exe demo_0100.exe demo_0101.exe exercise_0100.exe exercise_0101.exe exercise_0102.exe exercise_0103.exe exercise_0104.exe demo_0102.exe exercise_0105.exe exercise_0106.exe exercise_0107.exe exercise_0108.exe demo_0103.exe demo_0104.exe exercise_0110.exe exercise_0111.exe exercise_0112.exe _nextday.exe demo_0200.exe demo_0201.exe demo_0202.exe exercise_0200.exe exercise_0201.exe exercise_0202.exe use_vector.exe use_list.exe demo_0203.exe demo_0204.exe demo_0205.exe exercise_0203.exe exercise_0204.exe exercise_0205.exe exercise_0206.exe use_set.exe demo_0206.exe use_map.exe demo_0207.exe use_sort.exe demo_0300.exe demo_0301.exe demo_0302.exe demo_0303.exe demo_0304.exe demo_0305.exe use_string.exe demo_0400.exe demo_0401.exe demo_0402.exe use_queue.exe demo_0500.exe use_stack.exe demo_0501.exe demo_0502.exe demo_0503.exe
 
 # =============================================================================
 # Built-in targets

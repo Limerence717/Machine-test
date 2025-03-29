@@ -50,5 +50,9 @@ E:/Machine-test/cmake-build-debug/CMakeFiles/demo_0401.dir
 E:/Machine-test/cmake-build-debug/CMakeFiles/demo_0402.dir
 E:/Machine-test/cmake-build-debug/CMakeFiles/use_queue.dir
 E:/Machine-test/cmake-build-debug/CMakeFiles/demo_0500.dir
+E:/Machine-test/cmake-build-debug/CMakeFiles/use_stack.dir
+E:/Machine-test/cmake-build-debug/CMakeFiles/demo_0501.dir
+E:/Machine-test/cmake-build-debug/CMakeFiles/demo_0502.dir
+E:/Machine-test/cmake-build-debug/CMakeFiles/demo_0503.dir
 E:/Machine-test/cmake-build-debug/CMakeFiles/edit_cache.dir
 E:/Machine-test/cmake-build-debug/CMakeFiles/rebuild_cache.dir
