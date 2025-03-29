@@ -53,3 +53,6 @@ add_executable(use_string src/use_string.cpp)
 add_executable(demo_0400 src/demo_0400.cpp)
 add_executable(demo_0401 src/demo_0401.cpp)
 add_executable(demo_0402 src/demo_0402.cpp)
+
+add_executable(use_queue src/use_queue.cpp)
+add_executable(demo_0500 src/demo_0500.cpp)
